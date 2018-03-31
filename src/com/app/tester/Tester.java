@@ -236,7 +236,7 @@ public class Tester {
 		stat=inventory.calculateStat();
 		System.out.println("Inventory capacity : "+stat.getCapacity()+" / In Stock : "+stat.getTotalInStock());
 		System.out.println("Free Space : "+stat.getFreespace()+" / Ordered Product : "+stat.getOrderedproducts());
-		System.out.println("Free Space Percent : "+stat.getFreespacepercent()+" / Ordered Percent : "+stat.getOrderedpercent());
+		System.out.println("Free Space Percent : "+stat.getFreespacepercent()+"% / Ordered Percent : "+stat.getOrderedpercent()+"%");
 		System.out.println("Products : "+stat.getTotalProducts()+" / Total Product price : "+stat.getTotalPrice());
 	}
 	
